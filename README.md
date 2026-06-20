@@ -65,17 +65,17 @@ This lab focuses on building a React form from scratch, using state to track use
 
 ### Step 3: Import drinks and randomize a new drink
 
-- [ ] Add `drinks.json` to the project.
-- [ ] Import `drinks.json` into `BaristaForm.jsx`.
-- [ ] Create state for `currentDrink`.
-- [ ] Create state for `trueRecipe`.
-- [ ] Create a `getNextDrink` function to pick a random drink from the JSON file.
-- [ ] Set `currentDrink` to the selected drink name.
-- [ ] Set `trueRecipe` to the selected drink ingredients.
-- [ ] Reset all input values inside `onNewDrink`.
-- [ ] Call `getNextDrink()` from `onNewDrink`.
-- [ ] Render the current drink name in a `drink-container`.
-- [ ] Add a visible `New Drink` button near the displayed drink.
+- [X] Add `drinks.json` to the project.
+- [X] Import `drinks.json` into `BaristaForm.jsx`.
+- [X] Create state for `currentDrink`.
+- [X] Create state for `trueRecipe`.
+- [X] Create a `getNextDrink` function to pick a random drink from the JSON file.
+- [X] Set `currentDrink` to the selected drink name.
+- [X] Set `trueRecipe` to the selected drink ingredients.
+- [X] Reset all input values inside `onNewDrink`.
+- [X] Call `getNextDrink()` from `onNewDrink`.
+- [X] Render the current drink name in a `drink-container`.
+- [X] Add a visible `New Drink` button near the displayed drink.
 
 ### Step 4: Check answers
 
