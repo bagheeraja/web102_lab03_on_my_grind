@@ -53,15 +53,15 @@ This lab focuses on building a React form from scratch, using state to track use
 
 ### Step 2: Create dynamic inputs
 
-- [ ] Create a state object called `inputs` using `useState` for `temperature`, `milk`, `syrup`, and `blended`.
-- [ ] Create an `ingredients` object containing the possible answer choices for each category.
-- [ ] Create `RecipeChoices.jsx` in the `components` folder.
-- [ ] Pass props into `RecipeChoices` for `handleChange`, `label`, `choices`, and the current selected value.
-- [ ] Use `.map()` inside `RecipeChoices` to render the answer choices.
-- [ ] Render category sections for temperature, syrup, milk, and blended.
-- [ ] Add an answer display box above each list of choices.
-- [ ] Update parent state when the user selects a value.
-- [ ] Ensure selecting a new option replaces the current answer shown in the box.
+- [X] Create a state object called `inputs` using `useState` for `temperature`, `milk`, `syrup`, and `blended`.
+- [X] Create an `ingredients` object containing the possible answer choices for each category.
+- [X] Create `RecipeChoices.jsx` in the `components` folder.
+- [X] Pass props into `RecipeChoices` for `handleChange`, `label`, `choices`, and the current selected value.
+- [X] Use `.map()` inside `RecipeChoices` to render the answer choices.
+- [X] Render category sections for temperature, syrup, milk, and blended.
+- [X] Add an answer display box above each list of choices.
+- [X] Update parent state when the user selects a value.
+- [X] Ensure selecting a new option replaces the current answer shown in the box.
 
 ### Step 3: Import drinks and randomize a new drink
 
