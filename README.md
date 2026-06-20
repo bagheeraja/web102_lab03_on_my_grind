@@ -79,14 +79,14 @@ This lab focuses on building a React form from scratch, using state to track use
 
 ### Step 4: Check answers
 
-- [ ] Create state variables for ingredient correctness, one for each category.
-- [ ] Reset correctness state values when a new drink loads.
-- [ ] Compare `inputs.temperature` to `trueRecipe.temp` in `onCheckAnswer`.
-- [ ] Compare `inputs.syrup` to `trueRecipe.syrup` in `onCheckAnswer`.
-- [ ] Compare `inputs.milk` to `trueRecipe.milk` in `onCheckAnswer`.
-- [ ] Compare `inputs.blended` to `trueRecipe.blended` in `onCheckAnswer`.
-- [ ] Set each result state to values like `correct` or `wrong`.
-- [ ] Attach the correctness state to each answer-space so CSS can change its visual style.
+- [X] Create state variables for ingredient correctness, one for each category.
+- [X] Reset correctness state values when a new drink loads.
+- [X] Compare `inputs.temperature` to `trueRecipe.temp` in `onCheckAnswer`.
+- [X] Compare `inputs.syrup` to `trueRecipe.syrup` in `onCheckAnswer`.
+- [X] Compare `inputs.milk` to `trueRecipe.milk` in `onCheckAnswer`.
+- [X] Compare `inputs.blended` to `trueRecipe.blended` in `onCheckAnswer`.
+- [X] Set each result state to values like `correct` or `wrong`.
+- [X] Attach the correctness state to each answer-space so CSS can change its visual style.
 
 ### Step 5: Add styling
 
