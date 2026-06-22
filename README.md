@@ -90,15 +90,15 @@ This lab focuses on building a React form from scratch, using state to track use
 
 ### Step 5: Add styling
 
-- [ ] Change the form to use `className="container"`.
-- [ ] Wrap each ingredient section in a `mini-container`.
-- [ ] Style `.container` with Flexbox.
-- [ ] Style `.mini-container` with Flexbox column layout.
-- [ ] Add spacing and alignment so ingredient groups display cleanly.
-- [ ] Style correct and wrong answer states with different background colors.
-- [ ] Style `.answer-space` so it remains visible even when empty.
-- [ ] Remove list bullets from answer choices.
-- [ ] Add your own visual polish to the app.
+- [X] Change the form to use `className="container"`.
+- [X] Wrap each ingredient section in a `mini-container`.
+- [X] Style `.container` with Flexbox.
+- [X] Style `.mini-container` with Flexbox column layout.
+- [X] Add spacing and alignment so ingredient groups display cleanly.
+- [X] Style correct and wrong answer states with different background colors.
+- [X] Style `.answer-space` so it remains visible even when empty.
+- [X] Remove list bullets from answer choices.
+- [X] Add your own visual polish to the app.
 
 ### Step 6: Stretch feature – switch to text input
 
