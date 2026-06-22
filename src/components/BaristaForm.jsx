@@ -42,7 +42,7 @@ const BaristaForm = () => {
         getNextDrink();
     }
 
-    const onCheckAnswer = () => {
+    const onCheckAnswer = (event) => {
         event.preventDefault();
 
         if (trueRecipe.temp != inputs['temperature']){
@@ -83,7 +83,7 @@ const BaristaForm = () => {
 
     return (
         <div>
-            <h2>Hi, I'd like to order a:</h2>
+            <h2 className="drink-title">Hi, I'd like to order a:</h2>
             <div className="drink-container">
                 <h2 className="mini-header">{currentDrink}</h2>
                 <button className="button newdrink" onClick={onNewDrink}>🔄</button>
