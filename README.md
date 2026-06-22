@@ -102,22 +102,28 @@ This lab focuses on building a React form from scratch, using state to track use
 
 ### Step 6: Stretch feature – switch to text input
 
-- [ ] Replace radio-button inputs in `RecipeChoices.jsx` with a text input.
-- [ ] Keep the list of valid choices visible under the text box.
-- [ ] Set the text input `name`, `value`, `placeholder`, `onChange`, and `className` props as described in the lab.
-- [ ] Update the parent state from typed input the same way as before.
+- [X] Replace radio-button inputs in `RecipeChoices.jsx` with a text input.
+- [X] Keep the list of valid choices visible under the text box.
+- [X] Set the text input `name`, `value`, `placeholder`, `onChange`, and `className` props as described in the lab.
+- [X] Update the parent state from typed input the same way as before.
 
 ### Step 7: Stretch feature – validate typed input
 
-- [ ] Add validation in `onCheckAnswer` to verify the typed value exists in the allowed list for that category.
-- [ ] Use an alert or another visual method when the typed answer is not a valid option.
-- [ ] Keep answer checking behavior working for valid inputs.
-- [ ] Optionally restyle the `.textbox` class in `App.css`.
+- [X] Add validation in `onCheckAnswer` to verify the typed value exists in the allowed list for that category.
+- [X] Use an alert or another visual method when the typed answer is not a valid option.
+- [X] Keep answer checking behavior working for valid inputs.
+- [X] Optionally restyle the `.textbox` class in `App.css`.
+
+## Video Walkthrough
+
+- Here's a walkthrough of implemented required features:
+
+![Video Walkthrough](./src/assets/barista-app-walkthrough.gif)
+
+- Video created with LICEcap
 
 ## Suggested README Sections to Customize
 
-- Add screenshots or a GIF of the app in use.
-- Include a short tech stack list: React, Vite, JavaScript, CSS.
 - Link the project repository and deployed version if available.
 - Add notes on what was most challenging during the lab.
 
